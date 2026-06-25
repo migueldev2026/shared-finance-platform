@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/shared_finance/__init__.py
+src/shared_finance/config.py
+src/shared_finance/logging.py
+src/shared_finance/api/health.py
+src/shared_finance_platform.egg-info/PKG-INFO
+src/shared_finance_platform.egg-info/SOURCES.txt
+src/shared_finance_platform.egg-info/dependency_links.txt
+src/shared_finance_platform.egg-info/requires.txt
+src/shared_finance_platform.egg-info/top_level.txt
+tests/test_health.py
