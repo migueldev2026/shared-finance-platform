@@ -4,6 +4,10 @@ from datetime import date
 
 @dataclass(slots=True)
 class Expense:
+    """
+    Represents a shared expense.
+    """
+
     date: date
     category: str
     description: str

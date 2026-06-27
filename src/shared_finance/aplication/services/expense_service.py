@@ -1,8 +1,12 @@
+from shared_finance.domain.repositories.expense_repositorie import (
+    ExpenseRepository,
+)
+
+
 class ExpenseService:
 
-    def __init__(self, repository):
+    def __init__(self, repository: ExpenseRepository):
         self.repository = repository
 
-    def list_expenses(self):
-
+    def get_expenses(self):
         return self.repository.get_all()
