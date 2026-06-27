@@ -29,19 +29,8 @@ The project follows a Clean Architecture approach:
 - Domain Layer
 - Infrastructure Layer
 
-## Roadmap
+## Configuration
 
-### Module 1
-- Google Sheets Integration
-
-### Module 2
-- Financial Analytics
-
-### Module 3
-- Docker & CI/CD
-
-### Module 4
-- Azure Deployment
-
-### Module 5
-- Observability & SRE
+1. Copy `.env.example` to `.env`
+2. Configure your Google Spreadsheet ID
+3. Run `make run`
